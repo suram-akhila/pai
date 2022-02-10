@@ -1,12 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@500&family=Playfair+Display:wght@900&display=swap");
+
+html,
+body {
+  height: 100vh;
+}
+
 .left {
   padding-left: 120px;
   padding-right: 120px;
   width: 33%;
-  height: 100vh;
-  background: linear-gradient(225.63deg, #37445b -17.16%, #19202c 79.72%);
 }
 
 .right {
+  padding-top: 80px;
   width: 77%;
   background-color: white;
 }
@@ -17,142 +23,134 @@
   font-weight: bold;
   font-size: 67.8095px;
   line-height: 81px;
-  color: white;
 }
 
 .social-icon {
-  background-color: #303641;
-  width: 32px;
-  height: 32px;
+  background-color: #f1f1f1;
+  width: 36px;
+  height: 36px;
   border-radius: 100%;
-
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .fb-icon {
-  background-image: url("./assets/Web/Facebook.svg");
+  background-image: url("./assets/Mobile/Facebook.svg");
 }
 .twitter-icon {
-  background-image: url("./assets/Web/Twitter.svg");
+  background-image: url("./assets/Mobile/Twitter.svg");
 }
 .instagram-icon {
-  background-image: url("./assets/Web/Instagram.svg");
+  background-image: url("./assets/Mobile/Instagram.svg");
+}
+
+a {
+  text-decoration: none;
 }
 
 .shoe {
-  /* z-index: 1; */
+  z-index: 1;
 }
 
-.item-detail-section {
-  margin-right: 120px;
-  width: 500px;
-}
-.para{
-  font-family: Lato;
-  font-style: normal;
-  font-weight: normal;
+.para {
+  font-family: "Lato", sans-serif;
+
   font-size: 14px;
   line-height: 24px;
-  color: #19202C;
+  color: #19202c;
 }
-.size{
+.size {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
   color: #202124;
-  border: 1px solid #EDEDED;
+  border: 1px solid #ededed;
   box-sizing: border-box;
   border-radius: 21px;
 }
-.button{
-  background: #3F88EB;
-  border-radius: 100px;
-  position: absolute;
-  width: 241px;
-  height: 56px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.cart{
+
+.main-btn {
+  font-size: 13px;
+  padding: 16px;
+  width: 50%;
   font-family: Lato;
   font-style: normal;
   font-weight: 900;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  color: #FFFFFF;
+  border-radius: 100px;
+  border: none;
+  color: #ffffff;
 }
-.cart1{
-  background: #FFFFFF;
-  width:18px;
-  height:15px;
+
+.add-to-cart-btn {
+  background: #3f88eb;
 }
-.wishlist{
+
+.wishlist {
+  background-color: transparent;
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  color: #19202C;
+
+  color: #19202c;
 }
-.votes{
+.votes {
   text-decoration-line: underline;
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
-  color: #3F88EB;
+  color: #3f88eb;
 }
-.heading{
-  font-family: Playfair Display;
-  font-style: normal;
+
+.heading {
+  font-family: "Playfair Display", serif;
   font-weight: 900;
   font-size: 50px;
-  line-height: 56px;
-  color: #19202C;
+  color: #19202c;
 }
-.like{
-  width:17px;
-  height:13px;
+
+.like {
+  width: 17px;
+  height: 13px;
 }
-.S{
+
+.delivery {
   font-family: Lato;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
-  color: #19202C;
-
+  color: #19202c;
 }
-.price{
+.price {
   font-family: Lato;
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
   line-height: 42px;
-  color: #19202C;
+  color: #19202c;
 }
-.price2{
+.price2 {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   text-decoration-line: line-through;
-  color: #19202C;
+  color: #19202c;
   mix-blend-mode: normal;
   opacity: 0.3;
 }
-.ticks{
-  border: 1px solid #EDEDED;
+.ticks {
+  border: 1px solid #ededed;
   box-sizing: border-box;
   border-radius: 21px;
 }
-.quantity{
+.quantity {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -162,9 +160,152 @@
   color: #202124;
 }
 
-select{
-  border: 1px solid #EDEDED;
-box-sizing: border-box;
-border-radius: 21px;
-padding: 12px 20px ;
+select {
+  border: 1px solid #ededed;
+  background-color: transparent;
+  box-sizing: border-box;
+  border-radius: 21px;
+  padding: 12px 20px;
+}
+
+input[type="search"] {
+  border-radius: 24px;
+  background: #eceff2;
+  padding: 8px 30px;
+  border: none;
+}
+
+.search-icon {
+  margin-left: -35px;
+}
+
+.cart-count {
+  background-color: #eceff2;
+  border-radius: 100%;
+  color: black;
+
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  font-size: 12px;
+}
+
+.color-selector {
+  width: 22px;
+  height: 22px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.color-black {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  color: white;
+}
+
+.color-gray {
+  background-color: #f3f3f3;
+}
+
+.color-crimson {
+  background-color: #7a3050;
+}
+
+.control {
+  padding: 8px;
+  border-radius: 19px;
+  border: 1px solid #ededed;
+  width: 100px;
+}
+
+.quantity-controls button {
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+}
+
+.rating-icons a {
+  color: orange;
+}
+
+.nav {
+  background: linear-gradient(225.63deg, #37445b -17.16%, #19202c 79.72%);
+  color: white;
+  padding-top: 55px;
+  z-index: 1;
+}
+
+.nav .person-name {
+  font-size: 24px;
+  z-index: 100;
+}
+
+@media (min-width: 415px) {
+  .nav {
+    background: white;
+    padding-top: 0;
+    background-color: transparent;
+    padding-left: 120px !important;
+    padding-right: 120px !important;
+  }
+
+  .nav .person-name {
+    color: white;
+    font-weight: bold;
+    font-size: 67.8095px;
+    line-height: 81px;
+  }
+
+  .main-btn {
+    font-size: 13px;
+  }
+
+  .fb-icon {
+    background-image: url("./assets/Web/Facebook.svg");
+  }
+
+  .twitter-icon {
+    background-image: url("./assets/Web/Twitter.svg");
+  }
+
+  .instagram-icon {
+    background-image: url("./assets/Web/Instagram.svg");
+  }
+
+  body {
+    position: relative;
+  }
+
+  body::after {
+    position: absolute;
+    top: 0;
+    background: linear-gradient(225.63deg, #37445b -17.16%, #19202c 79.72%);
+    z-index: -10;
+    left: 0;
+    content: "";
+    width: 33vw;
+    height: 100%;
+  }
+
+  .item-detail-section {
+    background-color: white;
+    z-index: 10;
+    max-width: 500px;
+  }
+
+  .social-icon {
+    background-color: #333a46;
+  }
+
+  .left {
+    padding: 0 120px;
+  }
+
+  .left-main {
+    height: calc(100% - 105px);
+    padding-left: 70px;
+  }
 }
