@@ -1,0 +1,170 @@
+.left {
+  padding-left: 120px;
+  padding-right: 120px;
+  width: 33%;
+  height: 100vh;
+  background: linear-gradient(225.63deg, #37445b -17.16%, #19202c 79.72%);
+}
+
+.right {
+  width: 77%;
+  background-color: white;
+}
+
+.person-name {
+  font-family: "SF UI Text Regular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 67.8095px;
+  line-height: 81px;
+  color: white;
+}
+
+.social-icon {
+  background-color: #303641;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fb-icon {
+  background-image: url("./assets/Web/Facebook.svg");
+}
+.twitter-icon {
+  background-image: url("./assets/Web/Twitter.svg");
+}
+.instagram-icon {
+  background-image: url("./assets/Web/Instagram.svg");
+}
+
+.shoe {
+  /* z-index: 1; */
+}
+
+.item-detail-section {
+  margin-right: 120px;
+  width: 500px;
+}
+.para{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #19202C;
+}
+.size{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #202124;
+  border: 1px solid #EDEDED;
+  box-sizing: border-box;
+  border-radius: 21px;
+}
+.button{
+  background: #3F88EB;
+  border-radius: 100px;
+  position: absolute;
+  width: 241px;
+  height: 56px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.cart{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.cart1{
+  background: #FFFFFF;
+  width:18px;
+  height:15px;
+}
+.wishlist{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #19202C;
+}
+.votes{
+  text-decoration-line: underline;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3F88EB;
+}
+.heading{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 56px;
+  color: #19202C;
+}
+.like{
+  width:17px;
+  height:13px;
+}
+.S{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #19202C;
+
+}
+.price{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 42px;
+  color: #19202C;
+}
+.price2{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: line-through;
+  color: #19202C;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+}
+.ticks{
+  border: 1px solid #EDEDED;
+  box-sizing: border-box;
+  border-radius: 21px;
+}
+.quantity{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #202124;
+}
+
+select{
+  border: 1px solid #EDEDED;
+box-sizing: border-box;
+border-radius: 21px;
+padding: 12px 20px ;
+}
