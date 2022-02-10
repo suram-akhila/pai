@@ -1,113 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="assets/fonts.css" />
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <div class="d-flex flex-row">
-      <div class="left pt-3 pb-5 d-flex flex-column justify-content-between">
-        <h1 class="person-name">MIKE</h1>
-        <img
-          src="assets/Web/ShoeLarge.png"
-          alt="Shoe"
-          width="623px"
-          class="shoe"
-          height="530px"
-        />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <div class="d-flex gap-3">
-          <div class="fb-icon social-icon"></div>
-          <div class="twitter-icon social-icon"></div>
-          <div class="instagram-icon social-icon"></div>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="assets/fonts.css" />
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <ul class="nav d-flex align-items-center justify-content-between px-4 mb-3">
+    <li class="nav-item">
+      <h1 class="person-name">MIKE</h1>
+    </li>
+
+    <li class="nav-item">
+      <div class="d-flex gap-3 align-items-center justify-content-center">
+        <div class="me-5 d-none d-sm-block">
+          <input type="search" placeholder="Search" />
+          <img src="assets/Web/Search.svg" alt="Search" class="search-icon" />
+        </div>
+        <a href="">
+          <img src="assets/Web/Cart.svg" alt="Cart" class="d-none d-sm-block" />
+          <img src="assets/Mobile/Cart.svg" alt="Cart" class="d-block d-sm-none" />
+        </a>
+        <a href="">
+          <div class="
+                cart-count
+                bg-primary
+                p-3
+                bg-secondary
+                d-flex
+                align-items-center
+              ">
+            0
+          </div>
+        </a>
+        <a href="">
+          <img src="assets/Web/MenuHamburger.svg" alt="Menu" class="d-none d-sm-block" />
+          <img src="assets/Mobile/MenuHamburger.svg" alt="Menu" class="d-block d-sm-none" />
+        </a>
+      </div>
+    </li>
+  </ul>
+  <div class="d-flex flex-row h-100">
+    <div class="left d-none d-sm-block w-50 px-5 h-100">
+      <div class="d-flex flex-column align-items-start mx-auto justify-content-around left-main">
+        <img src="assets/Web/ShoeLarge.png" alt="Shoe" class="shoe d-nones" />
+        <div class="d-flex gap-3 ">
+          <a href="">
+            <div class="fb-icon social-icon"></div>
+          </a>
+          <a href="">
+            <div class="twitter-icon social-icon"></div>
+          </a>
+          <a href="">
+            <div class="instagram-icon social-icon"></div>
+          </a>
+
         </div>
       </div>
-      <div class="right d-flex justify-content-end">
-        <div class="item-detail-section pt-6">
-          <div class="d-flex flex-row justify-content-between">
-            <input type="search" placeholder="Search" />
-            <div>
-              <img src="assets/Web/AddToCart.svg" alt="Cart" />
-              <img src="assets/Web/MenuHamburger.svg" alt="Menu" />
+    </div>
+
+    <div class="d-flex w-100 justify-content-around">
+      <div class="item-detail-section px-3">
+        <nav class="mt-4" style="--bs-breadcrumb-divider: '&rtrif;'" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">Man</li>
+            <li class="breadcrumb-item">Shoes</li>
+            <li class="breadcrumb-item active">Gray Running Sneakers</li>
+          </ol>
+        </nav>
+        <h1 class="heading mt-4">Black Running Sneakers</h1>
+        <img src="assets/Mobile/ShoeSmall.png" alt="Shoe" class="d-block d-sm-none mx-auto my-3">
+        <div class="d-flex flex-row align-items-center gap-2">
+          <div class="d-flex rating-icons">
+            <a href="">&#9733;</a>
+            <a href="">&#9733;</a>
+            <a href="">&#9733;</a>
+            <a href="">&#9733;</a>
+            <a href="">&#9734;</a>
+          </div>
+          <a class="votes" href="">18 votes</a>
+        </div>
+        <div class="d-flex flex-row align-items-center gap-3">
+          <div class="price">&#x20B9; 16,959.99</div>
+          <div class="price2">&#x20B9; 20,069.99</div>
+        </div>
+        <p class="para">
+          Neoprene and memebrance boots.Rubber insert with lacing over foot
+          and back on heel.Lining and insole of the membrance
+        </p>
+        <div class="
+              d-flex
+              flex-row
+              justify-content-between
+              align-items-center
+              mb-5
+            ">
+          <div class="d-flex flex-column align-items-center gap-2">
+            <div>COLOR</div>
+            <div class="d-flex align-items-center gap-1 control">
+              <div class="color-selector color-black">&check;</div>
+              <div class="color-selector color-gray"></div>
+              <div class="color-selector color-crimson"></div>
             </div>
           </div>
-        <p>Man Shoes</p>
-        <h1 class="heading">Black Running Sneakers</h1>
-        <div>
-          <p class="votes">18 votes</p>
-        </div>
-        <div class="d-flex flex-row">
-          <p class="price">16,959.99</p>
-          <p class="price2">20,069.99</p>
-        </div>
-        <p class="para">Neoprene and memebrance boots.Rubber insert with lacing over foot and back on heel.Lining and insole of the membrance</p>
-        <div class="d-flex flex-row justify-content-between">
-          <div class="d-flex flex-column">
-            <p>COLOR</p>
-            <p class="ticks"></p>
-          </div>
-          <div>
-            
-            <select name="size" id="size">
+          <div class="d-flex flex-column align-items-center gap-2">
+            <label for="size">SIZE</label>
+            <select name="size" id="size" class="control">
               <option value="32">32</option>
               <option value="36">36</option>
               <option value="38">38</option>
               <option value="42">42</option>
               <option value="48" selected>48</option>
             </select>
-
           </div>
-          <div>
-            <p>QUANTITY</p>
-            <div class="d-flex flex-row justify-content-between size">
-              <p>-</p>
-              <p class="">3</p>
-              <p>+</p>
+          <div class="d-flex flex-column align-items-center gap-2">
+            <div>QUANTITY</div>
+            <div class="d-flex flex-row justify-content-between control quantity-controls">
+              <button>-</button>
+              <div>3</div>
+              <button>+</button>
             </div>
           </div>
         </div>
-        <div class="d-flex flex-row">
-          <div class="button">
-            <img src="assets/Web/Cart.svg" alt="cart" class="cart1"/>
-            <p class="cart">Add to Cart</p>
-          </div>
-          <div>
-            <img src="assets/Web/Like.svg" alt="star" class="like"/>
-          </div>
-          <div>
-            <p class="wishlist">Save to Wishlist</p>
-          </div>
+        <div class="d-flex flex-row align-items-center mb-4">
+          <button class="main-btn add-to-cart-btn d-flex flex-row gap-2 align-items-center justify-content-center">
+            <img src="assets/Web/AddToCart.svg" alt="cart" class="" />
+            <div class="cart">Add to Cart</div>
+          </button>
+          <button class="wishlist main-btn d-flex flex-row gap-2 align-items-center justify-content-center">
+            <img src="assets/Web/Like.svg" alt="cart" />
+            <div class="cart">Save to Wishlist</div>
+          </button>
         </div>
-        <p class="S">Standard delivery in 2-4 days or premium delivery in 2-4 hours</p>
+        <div class="delivery">
+          Standard delivery in 2-4 days or premium delivery in 2-4 hours
+        </div>
+        <div class="d-block d-sm-none">
+          <div class="d-flex gap-3 align-items-center justify-content-center my-4 ">
+            <a href="">
+              <div class="fb-icon social-icon"></div>
+            </a>
+            <a href="">
+              <div class="twitter-icon social-icon"></div>
+            </a>
+            <a href="">
+              <div class="instagram-icon social-icon"></div>
+            </a>
+          </div>
+
         </div>
       </div>
     </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
-  </body>
 </html>
